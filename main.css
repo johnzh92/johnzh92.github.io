@@ -1,7 +1,7 @@
 /*Styling for Hansen's Bike Shop
 
 
-/* Styling for entire page*/
+/* Styling for all pages*/
 HTML {margin: 10px;
    background-color: aqua;
 }
@@ -37,4 +37,21 @@ img.bikeimage {
     border: 5px solid Blue;
     border-radius: 20px;
     object-position: center;
+}
+
+/* Styling for Rental page*/
+main {
+    float: left;
+    border-color: blue;
+    width: 225px;
+}
+
+aside {
+    float: right;
+    width: 225px;
+    border-color: blue;
+}
+
+footer {
+
 }
