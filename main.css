@@ -17,3 +17,7 @@ h2 {
 ol > li {
    left padding: 10px;
 }
+
+img {
+    border: 5px solid Blue;
+}
