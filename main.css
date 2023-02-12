@@ -28,7 +28,7 @@ p.bicycle {
 }
 
 /* Styling for list 1*/
-ol {
+ol.list1 {
    padding-left:  10px;  
 }
 
