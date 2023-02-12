@@ -7,10 +7,13 @@ body {
 }
 
 h1 { 
-    padding: 10px
+    padding: 10px;
 }
 
 h2 { 
-    padding: 10px
+    padding: 10px;
 }
 
+ol > li {
+   left padding: 10px;
+}
