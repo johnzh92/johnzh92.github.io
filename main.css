@@ -33,7 +33,7 @@ ol li {
 }
 
 /* Styling for Bike Image*/
-bikeimage1 img {
+#bikeimage1 {
     border: 5px solid Blue;
     border-radius: 20px;
     object-position: center;
