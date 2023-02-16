@@ -42,16 +42,20 @@ img.bikeimage {
 /* Styling for Rental page*/
 main {
     float: left;
-    border-color: blue;
+    border: 5px solid blue;
+    border-radius: 20px;
     width: 225px;
 }
 
 aside {
     float: right;
     width: 225px;
-    border-color: blue;
+    border: 5px solid blue;
+    border-radius: 20px;
 }
 
 footer {
-
+    clear: both;
 }
+
+
