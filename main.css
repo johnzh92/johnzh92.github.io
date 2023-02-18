@@ -11,14 +11,14 @@ body {
     width: 725px;
 }
 
-/* Styling for h1*/
+/* Styling for headers*/
 h1 { 
     padding: 10px;
 }
 
-/* Styling for h2*/
 h2 { 
-    padding: 10px
+    padding: 10px;
+    clear: both;
 }
 
 /* Styling for bicycle class*/
@@ -30,6 +30,27 @@ p.bicycle {
 /* Styling for list 1*/
 ol li {
    padding-left:  10px;  
+}
+
+/* Styling for navigation menu*/
+
+#bikenav_menu ul {
+    list-style-type: none;
+}
+#bikenav_menu ul li {
+    float: left;
+    border: 3px solid orange;
+}
+#bikenav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: italic;
+    border-right: 3px solid black;
 }
 
 /* Styling for Bike Image*/
