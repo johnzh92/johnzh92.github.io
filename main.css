@@ -85,3 +85,21 @@ footer {
 }
 
 
+/*Media Queries*/
+
+/* tablet portrait layout (760 to 959px) */
+@media only screen and (max-width: 959){
+    
+}
+
+/* mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px){
+    
+}
+
+/* mobile portrait layout (480px to less) */
+@media only screen and (max-width: 479px){
+    
+}
+
+
