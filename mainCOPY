@@ -47,7 +47,7 @@ ol li {
 #bikenav_menu ul li a {
     text-align: center;
     display: block;
-    width: 16.66667%;
+    width: 125px;
     padding: 5px 0;
     text-decoration: none;
     background-color: blue;
@@ -81,5 +81,4 @@ aside {
 footer {
     clear: both;
 }
-
 

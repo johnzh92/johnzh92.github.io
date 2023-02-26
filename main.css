@@ -40,13 +40,14 @@ ol li {
 }
 #bikenav_menu ul li {
     float: left;
-    width: 16.66667%
+    border: 3px solid orange;
+    width: 17.3793%;
 }
+
 #bikenav_menu ul li a {
     text-align: center;
     display: block;
-    width: 16.66667%;
-    padding: 5px 0.6896%;
+    padding: 5px 0;
     text-decoration: none;
     background-color: blue;
     color: white;
