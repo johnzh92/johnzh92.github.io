@@ -56,9 +56,19 @@ ol li {
     border-right: 3px solid black;
 }
 
-#mobile_menu {display: none;}
+#mobile_menu {
+    display: none;
+}
 
-#mobile_menu {display: block;}
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+    #nav_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+}
 
 /* Styling for Bike Image*/
 #bikeimage1 {
