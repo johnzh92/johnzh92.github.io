@@ -88,9 +88,9 @@ footer {
 /*Media Queries*/
 
 /* landscape and desktop layout (960pz or more) */
-@media only screen and (max-width: 8000px){
+@media only screen and (max-width: 1000px){
         #mobile_menu {
-        display: none;
+        display:none;
     }
 }
 
@@ -105,6 +105,9 @@ footer {
 @media only screen and (max-width: 767px){
         #nav_menu {
         display: none;
+    }
+      #mobile_menu {
+        display: block;
     }
 }
 
