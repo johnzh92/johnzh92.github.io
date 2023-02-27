@@ -8,8 +8,8 @@ HTML {margin: 10px;
 
 /* Styling for body*/
 body {
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 725px;
     font-size: 100%;
 }
 
@@ -62,7 +62,8 @@ ol li {
     border: 5px solid Blue;
     border-radius: 20px;
     object-position: center;
-    width: 75%;
+    width: 100%;
+    max-width: 400px;
 }
 
 /* Styling for Rental page*/
@@ -75,7 +76,7 @@ main {
 
 aside {
     float: right;
-    width: 31.586%;
+    width: 31.034%;
     border: 2px solid blue;
     border-radius: 20px;
 }
@@ -87,29 +88,26 @@ footer {
 
 /*Media Queries*/
 
-/* landscape and desktop layout (960pz or more) */
-@media only screen and (max-width: 1000px){
-        #mobile_menu {
-        display:none;
-    }
+/* Desktop and tablet landscape layout (960px or more) */
+
+#mobile_menu {
+    display: none;
 }
 
+
 /* tablet portrait layout (760 to 959px) */
-@media only screen and (max-width: 959px){
+@media only screen and (max-width: 959){
         #nav_menu {
         display: none;
     }
 }
+
 
 /* mobile landscape layout (480px to 767px) */
 @media only screen and (max-width: 767px){
-        #nav_menu {
-        display: none;
-    }
-      #mobile_menu {
-        display: block;
-    }
+    
 }
+
 
 /* mobile portrait layout (480px to less) */
 @media only screen and (max-width: 479px){
