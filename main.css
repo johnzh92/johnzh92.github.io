@@ -63,7 +63,6 @@ ol li {
     border-radius: 20px;
     object-position: center;
     width: 75%;
-    max-width: 400px;
 }
 
 /* Styling for Rental page*/
@@ -105,13 +104,23 @@ footer {
 
 /* mobile landscape layout (480px to 767px) */
 @media only screen and (max-width: 767px){
-    
+        #nav_menu {
+        display: none;
+    }
+        #mobile_menu {
+        display: block;
+    }
 }
 
 
 /* mobile portrait layout (480px to less) */
 @media only screen and (max-width: 479px){
-    
+        #nav_menu {
+        display: none;
+    }
+        #mobile_menu {
+        display: block;
+    }
 }
 
 
