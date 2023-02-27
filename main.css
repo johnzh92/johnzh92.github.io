@@ -9,8 +9,8 @@ HTML {margin: 10px;
 /* Styling for body*/
 body {
     width: 90%;
-    max-width: 725px;
-    font-size: 100%;
+    max-width: 1000px;
+    font-size: 90%;
 }
 
 /* Styling for headers*/
@@ -62,7 +62,7 @@ ol li {
     border: 5px solid Blue;
     border-radius: 20px;
     object-position: center;
-    width: 100%;
+    width: 75%;
 }
 
 /* Styling for Rental page*/
@@ -75,7 +75,7 @@ main {
 
 aside {
     float: right;
-    width: 31.034%;
+    width: 31.586%;
     border: 2px solid blue;
     border-radius: 20px;
 }
