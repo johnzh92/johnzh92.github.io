@@ -9,7 +9,7 @@ HTML {margin: 10px;
 /* Styling for body*/
 body {
     width: 100%;
-    max-width: 725px;
+    max-width: 1000px;
     font-size: 100%;
 }
 
@@ -62,7 +62,7 @@ ol li {
     border: 5px solid Blue;
     border-radius: 20px;
     object-position: center;
-    width: 100%;
+    width: 75%;
     max-width: 400px;
 }
 
