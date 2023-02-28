@@ -1,0 +1,126 @@
+/*Styling for Hansen's Bike Shop
+
+
+/* Styling for all pages*/
+HTML {margin: 10px;
+   background-color: aqua;
+}
+
+/* Styling for body*/
+body {
+    width: 100%;
+    max-width: 1000px;
+    font-size: 100%;
+}
+
+/* Styling for headers*/
+h1 { 
+    padding: 10px;
+}
+
+h2 { 
+    padding: 10px;
+    clear: both;
+}
+
+/* Styling for bicycle class*/
+p.bicycle {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* Styling for list 1*/
+ol li {
+   padding-left:  10px;  
+}
+
+/* Styling for navigation menu*/
+
+#nav_menu ul {
+    list-style-type: none;
+}
+#nav_menu ul li {
+    float: left;
+    border: 3px solid orange;
+    width: 17.3793%;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: italic;
+    border-right: 3px solid black;
+}
+
+
+/* Styling for Bike Image*/
+#bikeimage1 {
+    border: 5px solid Blue;
+    border-radius: 20px;
+    object-position: center;
+    width: 75%;
+}
+
+/* Styling for Rental page*/
+main {
+    float: left;
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 31.586%;
+}
+
+aside {
+    float: right;
+    width: 31.034%;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+
+/*Media Queries*/
+
+/* Desktop and tablet landscape layout (960px or more) */
+
+#mobile_menu {
+    display: none;
+}
+
+
+/* tablet portrait layout (760 to 959px) */
+@media only screen and (max-width: 959){
+        #nav_menu {
+        display: none;
+    }
+}
+
+
+/* mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px){
+        #nav_menu {
+        display: none;
+    }
+        #mobile_menu {
+        display: block;
+    }
+}
+
+
+/* mobile portrait layout (480px to less) */
+@media only screen and (max-width: 479px){
+        #nav_menu {
+        display: none;
+    }
+        #mobile_menu {
+        display: block;
+    }
+}
+
+
