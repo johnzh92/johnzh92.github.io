@@ -16,22 +16,29 @@ body {
 /* Styling for headers*/
 h1 { 
     padding: 10px;
+    text-align: center;
 }
 
 h2 { 
     padding: 10px;
     clear: both;
+    text-align: center;
 }
 
 /* Styling for bicycle class*/
 p.bicycle {
     padding-right: 5px;
     padding-left: 5px;
+    text-align: center;
 }
 
 /* Styling for list 1*/
 ol li {
    padding-left:  10px;  
+}
+
+.list1 {
+    text-align: center;
 }
 
 /* Styling for navigation menu*/
@@ -41,7 +48,7 @@ ol li {
 }
 #nav_menu ul li {
     float: left;
-    border: 3px solid orange;
+    border: 3px solid lime;
     width: 17.3793%;
 }
 
@@ -67,17 +74,39 @@ ol li {
 
 /* Styling for Rental page*/
 main {
-    float: left;
-    border: 2px solid blue;
     border-radius: 20px;
-    width: 31.586%;
+    width: 100%;
 }
 
-aside {
-    float: right;
-    width: 31.034%;
-    border: 2px solid blue;
-    border-radius: 20px;
+.rental {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.M1 {
+    text-align: center;
+    background: white;
+}
+
+.M2 {
+    text-align: center;
+    background: lime;
+}
+
+.S1 {
+    text-align: center;
+    background: white;
+}
+
+.S2 {
+    text-align: center;
+    background: lime;
+}
+
+.Hel {
+    text-align: center;
+    background: white;
 }
 
 footer {
