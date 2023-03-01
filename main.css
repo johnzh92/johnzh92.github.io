@@ -83,37 +83,38 @@ main {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    flex-basis: 100%;
 }
 
 .M1 {
     text-align: center;
     background: white;
-    flex-basis: 25%;
+    
 }
 
 .M2 {
     text-align: center;
     background: lime;
-    flex-basis: 25%;
+    
 }
 
 .S1 {
     text-align: center;
     background: white;
-    flex-basis: 25%;
+    
 }
 
 .S2 {
     text-align: center;
     background: lime;
-    flex-basis: 25%;
+   
 }
 
 .Hel {
     text-align: center;
     background: white;
     width: 250px;
-    flex-basis: 25%;
+   
 }
 
 footer {
