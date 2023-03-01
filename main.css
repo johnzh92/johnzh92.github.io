@@ -74,6 +74,7 @@ ol li {
 
 /* Styling for Rental page*/
 main {
+    display: flex;
     border-radius: 20px;
     width: 100%;
 }
@@ -139,6 +140,9 @@ footer {
         #mobile_menu {
         display: block;
     }
+        .rental {
+        display: flex;
+    }
 }
 
 
@@ -149,6 +153,9 @@ footer {
     }
         #mobile_menu {
         display: block;
+    }
+        .rental {
+        display: flex;
     }
 }
 
