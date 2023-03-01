@@ -88,21 +88,25 @@ main {
 .M1 {
     text-align: center;
     background: white;
+    flex-basis: 25%;
 }
 
 .M2 {
     text-align: center;
     background: lime;
+    flex-basis: 25%;
 }
 
 .S1 {
     text-align: center;
     background: white;
+    flex-basis: 25%;
 }
 
 .S2 {
     text-align: center;
     background: lime;
+    flex-basis: 25%;
 }
 
 .Hel {
