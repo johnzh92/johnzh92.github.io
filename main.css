@@ -108,6 +108,8 @@ main {
 .Hel {
     text-align: center;
     background: white;
+    width: 250px;
+    flex-basis: 25%;
 }
 
 footer {
