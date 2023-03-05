@@ -132,6 +132,7 @@ main {
     border: 5px solid Blue;
     border-radius: 20px;
     max-width: 500px;
+    width: 100%;
 }
 
 .S2 {
@@ -145,6 +146,7 @@ main {
     border: 5px solid Blue;
     border-radius: 20px;
     max-width: 500px;
+    width: 100%;
 }
 
 
