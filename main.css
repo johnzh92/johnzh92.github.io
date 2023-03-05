@@ -87,40 +87,78 @@ main {
 
 .rental {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style-type: none;
     flex-basis: 100%;
+    justify-content: flex-end;
 }
 
 .M1 {
     text-align: center;
     background: white;
-    
+    margin: auto;
+    width: 65%;
+}
+
+#bikeimage3 {
+    border: 5px solid Blue;
+    border-radius: 20px;
+    max-width: 500px;
+  
 }
 
 .M2 {
     text-align: center;
     background: lime;
-    
+    width: 65%;
+    margin: auto;
 }
+
+#bikeimage4 {
+    border: 5px solid Blue;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
 
 .S1 {
     text-align: center;
     background: white;
-    
+    margin: auto;
+    width: 65%;
+}
+
+#bikeimage5 {
+    border: 5px solid Blue;
+    border-radius: 20px;
+    max-width: 500px;
 }
 
 .S2 {
     text-align: center;
     background: lime;
-   
+    width: 65%;
+    margin: auto;
 }
+
+#bikeimage2 {
+    border: 5px solid Blue;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
 
 .Hel {
     text-align: center;
     background: white;
-    width: 250px;
-   
+    width: 65%;
+    margin: auto;
+}
+
+#helmet {
+    border: 5px solid Blue;
+    border-radius: 20px;
+    max-width: 500px;
 }
 
 footer {
