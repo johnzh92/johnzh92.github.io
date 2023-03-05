@@ -11,6 +11,7 @@ body {
     width: 100%;
     max-width: 1000px;
     font-size: 100%;
+    margin: auto;
 }
 
 /* Styling for headers*/
@@ -38,7 +39,11 @@ ol li {
 }
 
 .list1 {
+    width: 25%;
     text-align: center;
+    list-style-type: none;
+    border: 3px solid blue;
+    
 }
 
 /* Styling for navigation menu*/
