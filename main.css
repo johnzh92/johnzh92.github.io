@@ -40,9 +40,9 @@ ol li {
 
 .list1 {
     width: 25%;
-    text-align: center;
     list-style-type: none;
     border: 3px solid blue;
+    margin: auto;
     
 }
 
@@ -73,8 +73,9 @@ ol li {
 #bikeimage1 {
     border: 5px solid Blue;
     border-radius: 20px;
-    object-position: center;
-    width: 75%;
+    width: 100%;
+    margin: auto;
+
 }
 
 /* Styling for Rental page*/
