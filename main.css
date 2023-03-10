@@ -71,15 +71,24 @@ ol li {
 
 /* Styling for Bike Image*/
 #bikeimage1 {
-    background-image: url("Mongoose.jpg");
+    background-image: url("Mongoose_400x400.jpg");
     border: 5px solid Blue;
     border-radius: 20px;
-    width: 1000px;
-    height: 1000px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 5px;
+    display: block;
+
 }
 
 #bikeimage1:hover {
-    background-image: url("Mongoose2.jpg");
+    background-image: url("Mongoose2_400x400.jpg");
+}
+
+figcapture {
+    display: block;
+    text-align: center;
 }
 
 /* Styling for Rental page*/
