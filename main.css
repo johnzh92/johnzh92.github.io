@@ -12,6 +12,7 @@ body {
     max-width: 1000px;
     font-size: 100%;
     margin: auto;
+    justify-content: center;
 }
 
 /* Styling for headers*/
@@ -181,6 +182,28 @@ main {
 
 footer {
     clear: both;
+}
+
+
+/*Styling for Sales Page */
+
+.sale {
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    max-width: 100%;
+    justify-items:     
+    }
+
+#video1 {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    max-width: 50%;
+    
+    
 }
 
 
