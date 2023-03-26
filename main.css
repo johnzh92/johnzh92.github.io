@@ -207,6 +207,60 @@ footer {
 }
 
 
+/*Styling for Services Page */
+
+	table {
+			border-collapse: collapse;
+			width: 100%;
+			max-width: 800px;
+			margin: 0 auto;
+			overflow-x: auto;
+		}
+
+		th, td {
+			text-align: left;
+			padding: 8px;
+			border-bottom: 1px solid black;
+		}
+
+		th {
+			background-color: white;
+		}
+
+		td:first-child {
+			font-weight: bold;
+			width: 30%;
+			max-width: 200px;
+		}
+
+		td:nth-child(2) {
+			width: 30%;
+			max-width: 200px;
+		}
+
+		td:last-child {
+			text-align: right;
+			width: 40%;
+			max-width: 300px;
+		}
+
+		tr:nth-child(even) {
+			background-color: white;
+		}
+
+		@media only screen and (max-width: 600px) {
+			td:first-child, td:nth-child(2), td:last-child {
+				display: block;
+				width: 100%;
+				max-width: none;
+			}
+			td:last-child {
+				text-align: left;
+			}
+		}
+	</style>
+
+
 /*Media Queries*/
 
 /* Desktop and tablet landscape layout (960px or more) */
