@@ -287,7 +287,7 @@ input[type="text"], input[type="email"], input[type="password"], select, textare
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px gray;
 }
 
 
@@ -304,6 +304,18 @@ button[type="submit"]:hover {
   background-color: green;
 }
 
+button[type="reset"] {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type="reset"]:hover {
+  background-color: green;
+}
 
 
 @media screen and (max-width: 600px) {
