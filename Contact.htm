@@ -30,6 +30,85 @@
              <li><a href="contact.htm">Contact</a></li>
             </ul>
         </nav> 
+    
+  
+    <form action="response.htm" method="POST">
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required
+               placeholder="Enter your full name">
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required
+               placeholder="Enter your address">
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required
+               placeholder="Enter the city you live in">
+
+        <label for="state">Select a state:</label>
+          <select id="state" name="state" required>
+            <option value="">Select a state</option>
+            <option value="California">California</option>
+            <option value="New York">New York</option>
+            <option value="Texas">Texas</option>
+            <option value="Florida">Florida</option>
+            <option value="Illinois">Illinois</option>
+        </select>
+       
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode" required
+               placeholder="Enter Zipcode">
+
+        <label for="phonenumber">Phone Number:</label>
+        <input type="tel" id="phonenumber" name="phonenumber" required
+               placeholder="Enter phone number">
+          
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required
+               placeholder="Enter your email address">
+
+        <label for="submissiondate">Submission Date:</label>
+        <input type="date" id="submissiondate" name="submissiondate" required>
+
+        <label for="inquirytype">Inquiry Type:</label>
+        <select id="inquirytype" name="inquirytype" required>
+          <option value="">Select an option</option>
+          <option value="general">General inquiry</option>
+          <option value="technical">Technical support</option>
+          <option value="sales">Sales inquiry</option>
+        </select>
+
+        <label for="bicycletype">Select a Bicycle Type:</label>
+        <input type="radio" id="mountain1" name="bikeType" value="Mountain 1">
+        <label for="mountain1">Mountain 1</label><br>
+        <input type="radio" id="mountain2" name="bikeType" value="Mountain 2">
+        <label for="mountain2">Mountain 2</label><br>
+        <input type="radio" id="street1" name="bikeType" value="Street 1">
+        <label for="street1">Street 1</label><br>
+        <input type="radio" id="street2" name="bikeType" value="Street 2">
+        <label for="street2">Street 2</label><br>
+        <input type="radio" id="helmet" name="bikeType" value="Helmet">
+        <label for="helmet">Helmet</label><br>
+
+        <label for="createpassword">Create Password:</label>
+        <input type="password" id="createpassword" name="createpassword" required
+               placeholder="Create a password">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="30" required
+                placeholder="Is there anything else?">
+        </textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+
+
 
 </body>
 </html>
